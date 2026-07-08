@@ -33,22 +33,22 @@ In retail, e-commerce stockouts do not just represent missing products; they rep
 *   **The Problem**: A standard scatterplot grouped by brand created an unreadable categorical smudge due to the massive volume of unique manufacturers. 
 *   **The Solution**: Data points were aggregated into macro-level brand strategies plotting **Average Price vs. Average Stockout Count**, scaled dynamically by **Total Lost Revenue**. `adjustText` was used to programmatically align and highlight major risk drivers.
 *   **Insight**: **ASOS (In-House Brand)** represents a massive outlier, sitting squarely in the high-price, high-stockout danger quadrant, indicating substantial unfulfilled demand for proprietary lines.
-![Brand Strategy Analysis](images/brand_analysis.png)
+![Brand Strategy Analysis](Images/brand_analysis.png)
 
 
 ### 2. Category Failure Modes
 *   **Insight**: Grouping text descriptions into strict item families revealed that **Dresses** dwarf all other apparel categories combined in terms of total uncaptured revenue. Inventory optimization should start here.
-![Total Lost Revenue by Category](images/category_loss.png)
+![Total Lost Revenue by Category](Images/category_loss.png)
 
 
 ### 3. Size-Level Supply Bottlenecks
 *   **Insight**: Standardizing size availability data revealed a near-perfect bell curve centered over **UK 8, UK 10, and UK 12**. The supply chain is systematically under-ordering the most popular, mainstream consumer sizes while over-indexing on fringe sizes.
-![Size Stockouts](images/size_bottlenecks.png)
+![Size Stockouts](Images/size_bottlenecks.png)
 
 
 ### 4. Pricing Resilience Tiers
 *   **Insight**: A distributional boxplot across stockout severity levels indicates that low-to-mid tier budget items (£20 - £45) experience the highest frequency of extreme size depletion, fueled by faster retail turnover rates.
-![Price Distribution Boxplot](images/price_distribution.png)
+![Price Distribution Boxplot](Images/price_distribution.png)
 
 
 ---
