@@ -6,7 +6,7 @@ An end-to-end data analysis and supply chain risk intelligence project that extr
 
 ## 📌 How This Project Started
 
-How I started this project. While browsing Kaggle, I discovered a raw, scraped e-commerce dataset containing over 30,000 products from ASOS. Upon inspection, the dataset was completely unstructured—prices were stored as text strings with symbols, sizing information was trapped in cluttered lists, and brand names were buried inside lengthy product descriptions. 
+While browsing Kaggle, I discovered a raw, scraped e-commerce dataset containing over 30,000 products from ASOS. Upon inspection, the dataset was completely unstructured—prices were stored as text strings with symbols, sizing information was trapped in cluttered lists, and brand names were buried inside lengthy product descriptions. 
 
 Recognizing that this reflects real-world data engineering challenges, I initiated this project to transform this chaotic e-commerce data into structured supply chain intelligence. By engineering clean data pipelines from scratch in Google Colab, I aimed to simulate how a retail data analyst solves a massive industry problem: tracking consumer demand that goes unfulfilled because an item is out of stock.
 
